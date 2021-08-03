@@ -1,19 +1,24 @@
 <?php
 
-
 class Animal
 {
-    protected static $type  = "牲口";
-
+    static $type  = "牲口";
 }
 
-Class people extends Animal {
-    static $name = '宁边';
+Class Duck extends Animal {
+    static $attribute = '鸭子';
+    static $name;
     public function __construct($name)
     {
         self::$name = $name;
-        echo "\n 这是一只".self::$name;
-        echo "\n 而且一只".self::$type;
+        echo "\n".self::$name.'是一只'.self::$attribute;
+        echo "\n 而且属于".self::$type;
+    }
+
+    public function say()
+    {
+        echo "\n 叫声gagagagaga";
     }
 }
-$ningbian = new people('菜鸡宁');
+$Donald_duck = new Duck('唐老鸭');
+$Donald_duck->say();
