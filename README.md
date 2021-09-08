@@ -8,5 +8,6 @@ php依赖注入
 https://www.php.cn/php-weizijiaocheng-406071.html
 https://zhuanlan.zhihu.com/p/97343710
 php预定义接口和类
-
+#abnormal&error
+异常与错误
 https://www.php.net/manual/en/reserved.interfaces.php
