@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="demo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" singleton="false" path="$PROJECT_DIR$/abnormal&amp;error/demo.php">
+    <CommandLine>
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="Ubuntu-18.04" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <method v="2" />
+  </configuration>
+</component>
