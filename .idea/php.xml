@@ -70,11 +70,11 @@
         </phpinfo>
       </interpreter>
       <interpreter name="Ubuntu-18.04">
-        <phpinfo binary_type="PHP" php_cgi="/www/server/php/74/bin/php-cgi" php_cli="/www/server/php/74/bin/php" path_separator=":" remote_host="58.210.110.30" version="7.4.22">
+        <phpinfo binary_type="PHP" php_cgi="/www/server/php/56/bin/php-cgi" php_cli="/www/server/php/56/bin/php" path_separator=":" remote_host="58.210.110.30" version="5.6.40">
           <additional_php_ini />
-          <configuration_file>/www/server/php/74/etc/php.ini</configuration_file>
+          <configuration_file>/www/server/php/56/etc/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:" />
+            <configuration_option name="include_path" value=".:/www/server/php/56/lib/php" />
           </configuration_options>
           <debuggers />
           <loaded_extensions>
@@ -84,11 +84,13 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="Zend Guard Loader" />
             <extension name="bcmath" />
             <extension name="ctype" />
             <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
+            <extension name="ereg" />
             <extension name="filter" />
             <extension name="ftp" />
             <extension name="gd" />
@@ -99,6 +101,9 @@
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
+            <extension name="mcrypt" />
+            <extension name="mhash" />
+            <extension name="mysql" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="openssl" />
@@ -111,7 +116,6 @@
             <extension name="shmop" />
             <extension name="soap" />
             <extension name="sockets" />
-            <extension name="sodium" />
             <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="sysvsem" />
