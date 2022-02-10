@@ -14,3 +14,5 @@ var_dump(unserialize($str1));
 var_dump(unserialize($str2));
 var_dump(unserialize($str3));
 
+$a = 'xxx';
+var_dump(strlen($a));
